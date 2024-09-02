@@ -48,12 +48,12 @@ const Products = () => {
   return (
     <div>
       <h1>My Products</h1>
-      {productList.map((item) => {
+      {productList.map((item, index) => {
         return (
           <div
             key={item.id}
             style={{
-              backgroundColor: "#e9e9e9",
+              backgroundColor: index % 2 ? "green" : "red",
               padding: 12,
               margin: 12,
             }}
