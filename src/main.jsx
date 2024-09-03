@@ -5,7 +5,8 @@ import { createRoot } from "react-dom/client";
 // import Counters from "./prevState-31Aug.jsx";
 // import ToggleExample from "./ToggleEx.jsx";
 //import Names from "./State/array-State";
-import Products from "./State/printJsonarray";
+// import Products from "./State/printJsonarray";
+import Todos from "./State/ToDo List/Todos";
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")).render(
     <ToggleExample /> */}
 
     {/* <Names /> */}
-    <Products />
+    {/* <Products /> */}
+    <Todos />
   </>
 );

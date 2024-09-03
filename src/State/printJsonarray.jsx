@@ -53,7 +53,7 @@ const Products = () => {
           <div
             key={item.id}
             style={{
-              backgroundColor: index % 2 ? "green" : "red",
+              backgroundColor: index % 2 ? "green" : "red", // conditional rendering in style
               padding: 12,
               margin: 12,
             }}
