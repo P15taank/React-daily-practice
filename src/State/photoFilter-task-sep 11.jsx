@@ -33,7 +33,7 @@ const Photofilter = () => {
               src={getPhoto}
               style={{
                 ...filterStyle,
-                width: "300px", // Set the width of the image
+                width: "500px", // Set the width of the image
                 height: "auto", // Set the height of the image; 'auto' keeps the aspect ratio
               }}
             />
@@ -57,6 +57,7 @@ const Photofilter = () => {
               Saturate
             </button>
             <button onClick={() => applyFilter("sepia(100%)")}>Sepia</button>
+            <button onClick={() => applyFilter("")}>Remove Filter</button>
           </div>
         </div>
       </div>
